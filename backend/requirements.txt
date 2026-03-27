@@ -1,0 +1,22 @@
+# FastAPI & Server
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# Breakout RL Simulation (CPU-friendly)
+gymnasium[atari,accept-rom-license]>=0.29.0
+opencv-python-headless>=4.8.0
+torch>=2.0.0
+
+# Database
+sqlalchemy>=2.0.36
+asyncpg>=0.30.0
+psycopg2-binary>=2.9.10
+pg8000>=1.31.0
+
+# Migrations
+alembic>=1.14.0
+
+# Config & Utils
+python-dotenv>=1.0.1
+pydantic>=2.10.0
+pydantic-settings>=2.6.1
